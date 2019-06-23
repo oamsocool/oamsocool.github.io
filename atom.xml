@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>OamSoCool</title>
+  
+  <subtitle>knowledge is power</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-06-23T04:28:56.426Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>oamsocool</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Awesome Windows Manager</title>
+    <link href="http://yoursite.com/wiki/Linux/awesome-wm/awesome/"/>
+    <id>http://yoursite.com/wiki/Linux/awesome-wm/awesome/</id>
+    <published>2019-06-23T04:30:17.406Z</published>
+    <updated>2019-06-23T04:28:56.426Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Awesome锁屏配置"><a href="#Awesome锁屏配置" class="headerlink" title="Awesome锁屏配置"></a>Awesome锁屏配置</h2><p><strong>锁屏</strong>功能在工作环境下比较常用。</p><p>推荐一个比较<a href="http://www.chengweiyang.cn/2016/02/16/how-to-lock-screen-in-awesome-wm/" rel="external nofollow noopener noreferrer" target="_blank">不错的配置教程</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Awesome锁屏配置&quot;&gt;&lt;a href=&quot;#Awesome锁屏配置&quot; class=&quot;headerlink&quot; title=&quot;Awesome锁屏配置&quot;&gt;&lt;/a&gt;Awesome锁屏配置&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;锁屏&lt;/strong&gt;功能在工作环境下比较常用。&lt;/
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="awesome-wm" scheme="http://yoursite.com/categories/Linux/awesome-wm/"/>
+    
+    
+      <category term="firefox" scheme="http://yoursite.com/tags/firefox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/wiki/Demo/hello-world/"/>
+    <id>http://yoursite.com/wiki/Demo/hello-world/</id>
+    <published>2019-06-23T04:30:17.404Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" rel="external nofollow noopener noreferrer" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" rel="external nofollow noopener noreferrer" target="_blank">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" rel="external nofollow noopener noreferrer" target="_blank">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" rel="external nofollow noopener noreferrer" target="_blank">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" rel="external nofollow noopener noreferrer" target="_blank">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" rel="external nofollow noopener noreferrer" target="_blank">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Hexo&lt;/a&gt;! This is your very first post.
+      
+    
+    </summary>
+    
+      <category term="Demo" scheme="http://yoursite.com/categories/Demo/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CLI bash &amp; zsh</title>
+    <link href="http://yoursite.com/wiki/Linux/common-tools/cli/"/>
+    <id>http://yoursite.com/wiki/Linux/common-tools/cli/</id>
+    <published>2019-03-07T11:14:16.000Z</published>
+    <updated>2019-06-23T04:28:56.426Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Configuration-Of-Bash"><a href="#Configuration-Of-Bash" class="headerlink" title="Configuration Of Bash"></a>Configuration Of Bash</h2><p><a href="https://github.com/junegunn/fzf" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/junegunn/fzf</a><br><a href="https://www.peterdavehello.org/2013/12/bash-completion/" rel="external nofollow noopener noreferrer" target="_blank">https://www.peterdavehello.org/2013/12/bash-completion/</a><br><a href="https://github.com/donnemartin/gitsome" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/donnemartin/gitsome</a></p><h2 id="Configuration-Of-Zsh"><a href="#Configuration-Of-Zsh" class="headerlink" title="Configuration Of Zsh"></a>Configuration Of Zsh</h2><p><a href="https://github.com/zsh-users/zsh" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/zsh-users/zsh</a><br><a href="https://github.com/robbyrussell/oh-my-zsh" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/robbyrussell/oh-my-zsh</a><br><a href="https://github.com/zsh-users/zsh-completions" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/zsh-users/zsh-completions</a><br><a href="https://github.com/junegunn/fzf" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/junegunn/fzf</a><br><a href="https://github.com/makeitjoe/incr.zsh" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/makeitjoe/incr.zsh</a><br><a href="http://yijiebuyi.com/blog/36955b84c57e338dd8255070b80829bf.html" rel="external nofollow noopener noreferrer" target="_blank">http://yijiebuyi.com/blog/36955b84c57e338dd8255070b80829bf.html</a><br><a href="http://mimosa-pudica.net/zsh-incremental.html" rel="external nofollow noopener noreferrer" target="_blank">http://mimosa-pudica.net/zsh-incremental.html</a><br><a href="https://github.com/changyuheng/fz" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/changyuheng/fz</a><br><a href="https://github.com/donnemartin/gitsome" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/donnemartin/gitsome</a></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://awesome-shell.readthedocs.io/en/latest/README_ZH-CN/" rel="external nofollow noopener noreferrer" target="_blank">awesome shell</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Configuration-Of-Bash&quot;&gt;&lt;a href=&quot;#Configuration-Of-Bash&quot; class=&quot;headerlink&quot; title=&quot;Configuration Of Bash&quot;&gt;&lt;/a&gt;Configuration Of Bash&lt;/
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="common-tools" scheme="http://yoursite.com/categories/Linux/common-tools/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>minicom usage</title>
+    <link href="http://yoursite.com/wiki/Linux/common-tools/minicom/"/>
+    <id>http://yoursite.com/wiki/Linux/common-tools/minicom/</id>
+    <published>2019-03-07T08:59:41.000Z</published>
+    <updated>2019-06-23T04:28:56.426Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># example</span></span><br><span class="line">sudo minicom -m -c on -C ./minicom_scp.txt -s</span><br></pre></td></tr></table></figure><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><ul><li><a href=""></a></li><li><a href=""></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="common-tools" scheme="http://yoursite.com/categories/Linux/common-tools/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS Java</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/java/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/java/</id>
+    <published>2019-02-23T10:45:46.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="How-to-Install-JDK-1-8"><a href="#How-to-Install-JDK-1-8" class="headerlink" title="How-to Install JDK-1.8"></a>How-to Install JDK-1.8</h2><p>When you install the development group packages, the jdk-1.8.0 installed by default.</p><p>system parameters:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">uname -a</span><br><span class="line"></span><br><span class="line">&gt;&gt; Linux localhost.localdomain 3.10.0-957.el7.x86_64 <span class="comment">#1 SMP Thu Nov 8 23:39:32 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux</span></span><br></pre></td></tr></table></figure></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href=""></a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;How-to-Install-JDK-1-8&quot;&gt;&lt;a href=&quot;#How-to-Install-JDK-1-8&quot; class=&quot;headerlink&quot; title=&quot;How-to Install JDK-1.8&quot;&gt;&lt;/a&gt;How-to Install JDK-1
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS opengrok</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/opengrok/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/opengrok/</id>
+    <published>2019-02-23T10:17:01.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Install-OpenJDK"><a href="#Install-OpenJDK" class="headerlink" title="Install OpenJDK"></a>Install OpenJDK</h2><p>install by yum<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum -y install java-1.8.0-openjdk java-1.8.0-openjdk-devel</span><br></pre></td></tr></table></figure></p><p>location:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dirname $(readlink $(readlink $(<span class="built_in">which</span> java)))</span><br></pre></td></tr></table></figure></p><h2 id="Install-OpenGrok-docker"><a href="#Install-OpenGrok-docker" class="headerlink" title="Install OpenGrok docker"></a>Install OpenGrok docker</h2><a href="/wiki/Linux/CentOS/docker/" title="install docker click here">install docker click here</a><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker pull krazakee/opengrok <span class="comment">#pull a opengrok-repo</span></span><br></pre></td></tr></table></figure><h2 id="Privatize-the-JDK-To-the-User-Directory"><a href="#Privatize-the-JDK-To-the-User-Directory" class="headerlink" title="Privatize the JDK To the User Directory"></a>Privatize the JDK To the User Directory</h2><p>NOTE: please copy all files to path you want, not Link files<br>so you should do this with ‘-L’ option:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash cp -arL `dirname $(readlink $(readlink $(<span class="built_in">which</span> java)))` /path/to/jvm</span><br></pre></td></tr></table></figure></p><h2 id="Make-Script"><a href="#Make-Script" class="headerlink" title="Make Script"></a>Make Script</h2><p>run docker daemon for opengrok<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">docker run -it -d --name openg \</span><br><span class="line">            -p 8111:8080 \</span><br><span class="line">            -v /path/to/jvm:/usr/lib/jvm \</span><br><span class="line">            -v /path/to/opengrok/data:/var/opengrok:delegated \</span><br><span class="line">            -w /app krazakee/opengrok</span><br></pre></td></tr></table></figure></p><p>update index DB-data<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">exec</span> openg bash -c <span class="string">"/reindex.sh"</span></span><br></pre></td></tr></table></figure></p><p>NOTE: your source code should be put to /path/to/opengrok/data/src/</p><p>for example:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /path/to/opengrok/data/src/flask</span><br><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/pallets/flask.git</span><br><span class="line"></span><br><span class="line">docker <span class="built_in">exec</span> openg bash -c <span class="string">"/reindex.sh"</span></span><br></pre></td></tr></table></figure></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/32568717" rel="external nofollow noopener noreferrer" target="_blank">Good Blog form zhihu</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Install-OpenJDK&quot;&gt;&lt;a href=&quot;#Install-OpenJDK&quot; class=&quot;headerlink&quot; title=&quot;Install OpenJDK&quot;&gt;&lt;/a&gt;Install OpenJDK&lt;/h2&gt;&lt;p&gt;install by yum&lt;br&gt;
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS Docker</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/docker/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/docker/</id>
+    <published>2019-02-23T10:10:11.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="How-to-Install-Docker"><a href="#How-to-Install-Docker" class="headerlink" title="How-to Install Docker"></a>How-to Install Docker</h2><p>system parameters:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">uanme -a</span><br><span class="line"></span><br><span class="line">&gt;&gt; Linux localhost.localdomain 3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux</span><br></pre></td></tr></table></figure></p><p>steps:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># instsall easily</span></span><br><span class="line">yum -y install docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># start service</span></span><br><span class="line">service docker start</span><br><span class="line"></span><br><span class="line"><span class="comment"># verify</span></span><br><span class="line">docker run hello-world</span><br></pre></td></tr></table></figure></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://www.jianshu.com/p/3a4cd73e3272" rel="external nofollow noopener noreferrer" target="_blank">Good Blog for docker installation</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;How-to-Install-Docker&quot;&gt;&lt;a href=&quot;#How-to-Install-Docker&quot; class=&quot;headerlink&quot; title=&quot;How-to Install Docker&quot;&gt;&lt;/a&gt;How-to Install Docker&lt;/
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS Git</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/git/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/git/</id>
+    <published>2019-02-22T14:09:01.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="How-to-Install-The-Latest-Version"><a href="#How-to-Install-The-Latest-Version" class="headerlink" title="How-to Install The Latest Version"></a>How-to Install The Latest Version</h2><p>If you want get the latest version of git tools on CentOS, the one method of all is compile with source code.<br><a href="https://github.com/git/git" rel="external nofollow noopener noreferrer" target="_blank">git repository</a></p><p>Here are steps of installing git tools.</p><h3 id="Install-Development-Groups-Tools"><a href="#Install-Development-Groups-Tools" class="headerlink" title="Install Development Groups Tools"></a>Install Development Groups Tools</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo yum groups list <span class="comment"># query</span></span><br><span class="line">sudo yum group install <span class="string">'Development and Creative Workstation'</span></span><br></pre></td></tr></table></figure><h3 id="Remove-Old-Version-Git-From-System"><a href="#Remove-Old-Version-Git-From-System" class="headerlink" title="Remove Old Version Git From System"></a>Remove Old Version Git From System</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum remove git</span><br></pre></td></tr></table></figure><h3 id="Maybe-Other-Dependence"><a href="#Maybe-Other-Dependence" class="headerlink" title="Maybe Other Dependence"></a>Maybe Other Dependence</h3><p>Maybe some other tools should be installed:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install  curl-devel \</span><br><span class="line">                  expat-devel \</span><br><span class="line">                  gettext-devel \</span><br><span class="line">                  openssl-devel \</span><br><span class="line">                  zlib-devel \</span><br><span class="line">                  gcc \</span><br><span class="line">                  perl-ExtUtils-MakeMaker \</span><br><span class="line">                  docbook2X.x86_64 \</span><br><span class="line">                  curl-devel \</span><br><span class="line">                  openssl-devel \</span><br><span class="line">                  asciidoc.noarch</span><br></pre></td></tr></table></figure></p><h3 id="Download-Source-Code"><a href="#Download-Source-Code" class="headerlink" title="Download Source Code"></a>Download Source Code</h3><p>download source code methods as below:</p><ol><li><p>clone source code from Github:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/git/git.git <span class="comment"># to current dir</span></span><br></pre></td></tr></table></figure></li><li><p>get source code zip-file from Github:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://github.com/git/git/archive/master.zip <span class="comment"># to current dir</span></span><br></pre></td></tr></table></figure></li></ol><h3 id="Compile-Source-Code-and-Install"><a href="#Compile-Source-Code-and-Install" class="headerlink" title="Compile Source Code and Install"></a>Compile Source Code and Install</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo make prefix=/usr install install-doc install-html install-info ;<span class="comment"># as root</span></span><br></pre></td></tr></table></figure><p><a href="https://github.com/git/git/blob/master/INSTALL" rel="external nofollow noopener noreferrer" target="_blank">official installation documentation</a></p><h3 id="Verify"><a href="#Verify" class="headerlink" title="Verify"></a>Verify</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://www.cnblogs.com/hglibin/p/8627975.html" rel="external nofollow noopener noreferrer" target="_blank">blog about install git from source code </a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;How-to-Install-The-Latest-Version&quot;&gt;&lt;a href=&quot;#How-to-Install-The-Latest-Version&quot; class=&quot;headerlink&quot; title=&quot;How-to Install The Latest 
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS Command Tools</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/common_tools/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/common_tools/</id>
+    <published>2019-02-18T08:26:44.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="How-to-install-‘ag’-On-CentOS"><a href="#How-to-install-‘ag’-On-CentOS" class="headerlink" title="How-to install ‘ag’ On CentOS"></a>How-to install ‘ag’ On CentOS</h2><p><a href="https://zhuanlan.zhihu.com/p/51966990" rel="external nofollow noopener noreferrer" target="_blank">Good Answer From ZhiHu</a></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href=""></a></li><li><a href=""></a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;How-to-install-‘ag’-On-CentOS&quot;&gt;&lt;a href=&quot;#How-to-install-‘ag’-On-CentOS&quot; class=&quot;headerlink&quot; title=&quot;How-to install ‘ag’ On CentOS&quot;&gt;&lt;/a
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Centos Emacs</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/emacs/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/emacs/</id>
+    <published>2019-02-18T05:08:09.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Goals"><a href="#Goals" class="headerlink" title="Goals"></a>Goals</h2><p>Mainly explain the basic skills that should be mastered as a user (not a developer).</p><h2 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h2><p>As a coder (Emacs user), I have some requirements as below:</p><ol><li>I can record notes at any time to complete the daily accumulation.</li><li>I can simply use the shell function in the editor.</li><li>I can use the code jump function according to different language.</li><li>I can use various query functions in a project with version control.</li><li>I can use grep-like function without version control.</li><li>I can use the code tagging feature to complete the documentation process.</li><li>I can use Chinese input-method in any file.</li><li>I can use version control functions, example: git.</li><li>To be continue…</li></ol><p>NOTE: Use #NUM express requirement’s number.</p><h2 id="Meet-Plugins-or-Built-in-Functions"><a href="#Meet-Plugins-or-Built-in-Functions" class="headerlink" title="Meet Plugins or Built-in Functions"></a>Meet Plugins or Built-in Functions</h2><p>Emacs provides built-in features or plugins that meet my requirements.</p><h2 id="Issue"><a href="#Issue" class="headerlink" title="Issue"></a>Issue</h2><p>When you get the spacemacs.git master branch from GitHub, and install packages at first time, maybe you have a trouble same as ‘… name is missspelled?’</p><p>Fix it by booting with option ‘–insecure’<br>For example: emacs –insecure</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://www.gnu.org/software/emacs/" rel="external nofollow noopener noreferrer" target="_blank">Emacs Home</a></li><li><a href="https://github.com/syl20bnr/spacemacs" rel="external nofollow noopener noreferrer" target="_blank">Spacemacs Home</a></li><li><a href="https://emacs-china.org/" rel="external nofollow noopener noreferrer" target="_blank">Emacs China Home</a></li><li><a href="https://blog.csdn.net/redguardtoo/article/details/7222501" rel="external nofollow noopener noreferrer" target="_blank">Chen Bin Blog</a></li><li><a href="https://blog.csdn.net/miaoshaohoa/article/details/11854225" rel="external nofollow noopener noreferrer" target="_blank">Good Blog For Installing Emacs by compiled</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Goals&quot;&gt;&lt;a href=&quot;#Goals&quot; class=&quot;headerlink&quot; title=&quot;Goals&quot;&gt;&lt;/a&gt;Goals&lt;/h2&gt;&lt;p&gt;Mainly explain the basic skills that should be mastered as
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS Chinese Inputmethod</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/chinese_inputmethod/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/chinese_inputmethod/</id>
+    <published>2019-02-18T04:39:10.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><ul><li><a href="https://blog.csdn.net/alex_my/article/details/38223449" rel="external nofollow noopener noreferrer" target="_blank">Get Easily</a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.c
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+      <category term="chinese-inputmethod" scheme="http://yoursite.com/tags/chinese-inputmethod/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS Python Developemnt Environment</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/python/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/python/</id>
+    <published>2019-02-17T14:40:57.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="How-to-Install-Python3"><a href="#How-to-Install-Python3" class="headerlink" title="How-to Install Python3"></a>How-to Install Python3</h2><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><ul><li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-centos-7" rel="external nofollow noopener noreferrer" target="_blank">Good blog about install python3 On CentOS</a></li><li><a href="https://www.jianshu.com/p/44ab75fbaef2" rel="external nofollow noopener noreferrer" target="_blank">How to install python virtual envs</a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;How-to-Install-Python3&quot;&gt;&lt;a href=&quot;#How-to-Install-Python3&quot; class=&quot;headerlink&quot; title=&quot;How-to Install Python3&quot;&gt;&lt;/a&gt;How-to Install Pytho
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS Samba Service</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/samba/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/samba/</id>
+    <published>2019-02-17T14:36:25.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="How-TO-Install-Samba"><a href="#How-TO-Install-Samba" class="headerlink" title="How-TO Install Samba"></a>How-TO Install Samba</h2><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><ul><li><a href="https://www.cnblogs.com/cq146637/p/7806550.html" rel="external nofollow noopener noreferrer" target="_blank">Install Samba</a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;How-TO-Install-Samba&quot;&gt;&lt;a href=&quot;#How-TO-Install-Samba&quot; class=&quot;headerlink&quot; title=&quot;How-TO Install Samba&quot;&gt;&lt;/a&gt;How-TO Install Samba&lt;/h2&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+      <category term="centos-samba" scheme="http://yoursite.com/tags/centos-samba/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS Neovim</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/neovim/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/neovim/</id>
+    <published>2019-02-17T14:36:16.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><ul><li><a href=""></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS RPM and YUM</title>
+    <link href="http://yoursite.com/wiki/Linux/CentOS/rpm_and_yum/"/>
+    <id>http://yoursite.com/wiki/Linux/CentOS/rpm_and_yum/</id>
+    <published>2019-02-17T14:35:23.000Z</published>
+    <updated>2019-06-23T04:28:56.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><ul><li><a href=""></a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="CentOS" scheme="http://yoursite.com/categories/Linux/CentOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>FireFox Usage and Configuration</title>
+    <link href="http://yoursite.com/wiki/Linux/firefox/firefox/"/>
+    <id>http://yoursite.com/wiki/Linux/firefox/firefox/</id>
+    <published>2019-02-10T16:00:00.000Z</published>
+    <updated>2019-06-23T04:28:56.426Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="FireFox"><a href="#FireFox" class="headerlink" title="FireFox"></a>FireFox</h2><h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><p>Maybe, here should be used to record some tips for firefox.</p><h3 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h3><h4 id="FireFox-Flash-Plugin-on-Ubuntu"><a href="#FireFox-Flash-Plugin-on-Ubuntu" class="headerlink" title="FireFox Flash Plugin on [Ubuntu]"></a>FireFox Flash Plugin on [Ubuntu]</h4><p>On ubuntu (version == 18.04), we had test and follow us:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install flashplugin-installer</span><br></pre></td></tr></table></figure></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><ul><li><a href="https://linuxconfig.org/how-to-install-adobe-flash-player-plugin-for-firefox-on-centos-7-linux" rel="external nofollow noopener noreferrer" target="_blank">How to install firefox flash plugin</a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;FireFox&quot;&gt;&lt;a href=&quot;#FireFox&quot; class=&quot;headerlink&quot; title=&quot;FireFox&quot;&gt;&lt;/a&gt;FireFox&lt;/h2&gt;&lt;h3 id=&quot;Usage&quot;&gt;&lt;a href=&quot;#Usage&quot; class=&quot;headerlink&quot; ti
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="firefox" scheme="http://yoursite.com/categories/Linux/firefox/"/>
+    
+    
+      <category term="firefox" scheme="http://yoursite.com/tags/firefox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Multiple SSH KEYs on The Same Computer</title>
+    <link href="http://yoursite.com/wiki/Linux/ssh/ssh-key/"/>
+    <id>http://yoursite.com/wiki/Linux/ssh/ssh-key/</id>
+    <published>2019-02-10T16:00:00.000Z</published>
+    <updated>2019-06-23T04:28:56.426Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h2><p>有时候，可能需要在github上创建不同的帐户（虽然是很小的概率），但如果你的主机上只有一个sshkey，就会出现问题。</p><p>问题在于这个github会查询sshkey的唯一性，并告诉你这个sshkey已经存在了。</p><p>这个时候同一台机器创建不同的sshkey就有必要了。</p><h2 id="具体操作步骤"><a href="#具体操作步骤" class="headerlink" title="具体操作步骤"></a>具体操作步骤</h2><p>任何的操作步骤都会有假设的前提。</p><p>我们假设现在你的主机还没有配置sshkey</p><h3 id="1-为本地主机创建多个sshkey"><a href="#1-为本地主机创建多个sshkey" class="headerlink" title="1. 为本地主机创建多个sshkey"></a>1. 为本地主机创建多个sshkey</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail@temp.com"</span></span><br><span class="line"></span><br><span class="line">&gt; -t 为参数类型</span><br><span class="line">&gt; -C 关联邮件</span><br></pre></td></tr></table></figure><p>这个步骤中，会要求你配置文件的位置和名称，注意并正确填写。</p><p>对应标题，我们需要假设需要在本地创建两个sshkey达到目的，所以需要执行<strong>两次</strong>上述命令。</p><p>注意，执行上述命令的时候，配置的文件应该是不同的。</p><p>现在，已经有了两个不同的sshkey在~/.ssh/目录下。<br>查看目录结构：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls -l ~/.ssh/</span><br></pre></td></tr></table></figure><h3 id="2-配置ssh的config文件，并关联不同帐户"><a href="#2-配置ssh的config文件，并关联不同帐户" class="headerlink" title="2. 配置ssh的config文件，并关联不同帐户"></a>2. 配置ssh的config文件，并关联不同帐户</h3><p>查看ssh的手册可以发现下面的内容：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># man ssh &amp;&amp; grep configfile</span><br><span class="line"></span><br><span class="line">     -F configfile</span><br><span class="line">             Specifies an alternative per-user configuration file.  If a configuration file is given on the command line, the system-wide configuration file (/etc/ssh/ssh_config) will</span><br><span class="line">             be ignored.  The default for the per-user configuration file is ~/.ssh/config.</span><br></pre></td></tr></table></figure></p><p>在~/.ssh/下创建config文件并添加配置信息。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ touch ~/.ssh/config</span><br></pre></td></tr></table></figure><p>使用编辑器完成配置信息添加：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vi ~/.ssh/config</span><br></pre></td></tr></table></figure><p>配置信息样例如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Host github.com # 这个名字理论上可以随便配置，但最好配置有意义的内容，并且可以看到这个内容是区分不同sshkey的必要条件</span><br><span class="line">    HostName github.com</span><br><span class="line">    PreferredAuthentications publickey</span><br><span class="line">    IdentityFile ~/.ssh/id_rsa</span><br><span class="line"></span><br><span class="line">Host my.github.com</span><br><span class="line">    HostName github.com</span><br><span class="line">    PreferredAuthentications publickey</span><br><span class="line">    IdentityFile ~/.ssh/my</span><br></pre></td></tr></table></figure></p><h3 id="3-上传指定的sshkey到github"><a href="#3-上传指定的sshkey到github" class="headerlink" title="3. 上传指定的sshkey到github"></a>3. 上传指定的sshkey到github</h3><p>上川sshkey到github也很容易，这个内容可以参考链接：<br><a href="https://blog.csdn.net/itmyhome1990/article/details/39668349" rel="external nofollow noopener noreferrer" target="_blank">GITHUB的SSHKEY的配置</a></p><h3 id="4-验证配置的内容是否生效"><a href="#4-验证配置的内容是否生效" class="headerlink" title="4. 验证配置的内容是否生效"></a>4. 验证配置的内容是否生效</h3><p>验证指令很简单：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@my.github.com</span><br><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure></p><p>如果出现Hi xxx!You’ve successfully authenticated 就说明连接成功了。</p><h3 id="5-git仓库的配置"><a href="#5-git仓库的配置" class="headerlink" title="5. git仓库的配置"></a>5. git仓库的配置</h3><p>需要知道的是，本地关于ssh的相关操作，都是基于本地的配置完成的。这很重要！</p><p>这里需要注意的是，用户名和邮件的配置信息是需要使用git的指令完成配置的。<br>用户信息可以是本地仓库的，也可以是针对个别用户的，也可以是全局的。<br>具体的内容请参考：<a href="https://blog.csdn.net/joe_007/article/details/7276195" rel="external nofollow noopener noreferrer" target="_blank">git config 配置</a></p><p>如果想要免密操作，那么clone自己的仓库就使用git协议，如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@my.github.com:username/wiki.websit.git</span><br></pre></td></tr></table></figure></p><p>如果仓库已经clone或者创建完成，那么可以修改本地的仓库完成配置，如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#更改[remote "origin"]项中的url中的(.git/config)</span></span><br><span class="line"><span class="comment">#my.github.com 对应上面配置的host</span></span><br><span class="line">[remote <span class="string">"origin"</span>]</span><br><span class="line">url = git@my.github.com:itmyline/blog.git</span><br></pre></td></tr></table></figure></p><p>或者：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#在Git Bash中提交的时候修改remote</span></span><br><span class="line">$ git remote rm origin</span><br><span class="line">$ git remote add origin git@my.github.com:username/blog.git</span><br></pre></td></tr></table></figure></p><h2 id="扩展内容"><a href="#扩展内容" class="headerlink" title="扩展内容"></a>扩展内容</h2><p>在使用hexo完成博客编写的时候，需要配置web中的 _config.yml文件的内容如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  repo: git@cool.github.com:oamsocool/oamsocool.github.io.git</span><br><span class="line">  type: git</span><br><span class="line">  branch: master</span><br><span class="line">...</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;需求分析&quot;&gt;&lt;a href=&quot;#需求分析&quot; class=&quot;headerlink&quot; title=&quot;需求分析&quot;&gt;&lt;/a&gt;需求分析&lt;/h2&gt;&lt;p&gt;有时候，可能需要在github上创建不同的帐户（虽然是很小的概率），但如果你的主机上只有一个sshkey，就会出现问题。&lt;/
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="ssh" scheme="http://yoursite.com/categories/Linux/ssh/"/>
+    
+    
+      <category term="ssh" scheme="http://yoursite.com/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome Zthxxx&#39;s Wiki Site</title>
+    <link href="http://yoursite.com/wiki/index/"/>
+    <id>http://yoursite.com/wiki/index/</id>
+    <published>2017-01-21T17:55:57.000Z</published>
+    <updated>2019-06-23T04:28:56.426Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是 zthxxx 的个人 Wiki 站点，主要记录一些自己总结的只言片语的零散知识点。</p><p>我一直觉得 <strong>知识不能碎片化，要结构化</strong>，于是希望寻找一种优雅的方式来管理我的知识。</p><p>先后了解或尝试过 OneNote、Evernote、Blog、Wiki 等方式，总结了一套觉得比较合理的知识获取吸收管理流程：</p><ol><li>通过网页、RSS、微信等网络渠道作为知识获取来源。</li><li>通过笔记系统（手写笔记、OneNote、Evernote）初步筛选有价值有针对性的信息，<strong>收藏</strong>信息，<strong>分类整理</strong>，做读后<strong>要点</strong>笔记记录。</li><li>自己平时突然想到或总结的一两句话，或很零碎的点子、灵感，初步消化的内容，则用 <strong>Wiki</strong> 记录。</li><li>最后当 Wiki 在某版块有一定量后，将这方面笔记和 Wiki 中的内容重读，整理和提炼，二次消化精炼再加上自己的感悟和理解，写成文章发表在 <strong>博客</strong> 上。</li></ol><p>在使用中，<strong>笔记系统</strong> 主大块信息的<strong>分类和整理</strong>，<strong>Wiki</strong> 主零碎知识的<strong>积累</strong>，而 <strong>博客</strong> 只在于 <strong>精</strong>。</p><p>Wiki 中某一版块刚建时，可能只有很少内容或者就一句话，但是通过这种使用流程，日积月累，这方面的事物接触得多了，零散的知识也就多了，那么 Wiki 中这个版块记录的内容也就会变多了，也就是<strong>通过积累，把原本大量碎片化的知识结构化整理起来了</strong>。</p><p>博客的目的是 <strong>分享和展示</strong>，分享自己的知识，展示自己的水平，需要放拿得出手的东西，因此不适合放碎片化的只言片语，更适合放 <strong>一个系列</strong> 的总结或者教程等，是一个十分成体系的知识平台。</p><p>当我尝试部署一个自己的 Wiki 系统时，又开始纠结于选择哪个 Wiki 系统。参考网上博客，实际部署和对比比较了几个时下流行的 Wiki 系统：MediaWiki, DokuWiki, MDwiki, TiddlyWiki, wiz, vimwiki, Simiki, Wikitten 等等。都不如人意，有些是部署麻烦复杂，有些是界面太丑，有些不能分级，有些分级不能展开，有些不能搜索，还有的甚至不是用的 Markdown 。。。</p><p>根据这些不算满意的使用体验，我总结整理了一下自己对于 <strong>个人 Wiki</strong> 的一些需求。</p><ul><li>界面简洁美观，排版字体友好</li><li>支持多级分类</li><li>方便修改和更新内容</li><li>部署简单</li><li>分类目录可展开和收缩</li><li>展开分类时可查看该分类下所有文章 / 词条的标题</li><li>每篇文章 / 词条能添加多个分类 / 标签</li><li>Wiki 可支持引用内部链接</li><li>使用 Markdown 书写文章 / 词条</li><li>支持全文搜索（可搜索内容和标题）</li></ul><p>在之前的使用中，<a href="http://wikitten.vizuina.com/" rel="external nofollow noopener noreferrer" target="_blank">Wikiteen</a> 是最接近我需求的，但是仍然有一些条件不满足，比如部署和搜索。但是我个人比较喜欢 Wikitten 的样式。</p><p>于是最终我选择了仿照 Wikitten 的样式自己写这个基于 Hexo 的 Wiki 主题 <a href="https://github.com/zthxxx/hexo-theme-Wikitten" rel="external nofollow noopener noreferrer" target="_blank">hexo-theme-Wikitten</a>，作为自己用的一套 Wiki 系统，基本实现了上述的需求。现在暂时自己用着，当然这个初步功能还很简单，后续也有一堆 Bug 和 TODO List 需要维护，欢迎有兴趣的提提 PR。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是 zthxxx 的个人 Wiki 站点，主要记录一些自己总结的只言片语的零散知识点。&lt;/p&gt;
+&lt;p&gt;我一直觉得 &lt;strong&gt;知识不能碎片化，要结构化&lt;/strong&gt;，于是希望寻找一种优雅的方式来管理我的知识。&lt;/p&gt;
+&lt;p&gt;先后了解或尝试过 OneNote、Eve
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

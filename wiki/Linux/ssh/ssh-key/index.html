@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>Multiple SSH KEYs on The Same Computer | OamSoCool</title>
+  <meta name="author" content="oamsocool">
+  
+  <meta name="description" content="Rex and Amy">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Multiple SSH KEYs on The Same Computer">
+  <meta property="og:site_name" content="OamSoCool">
+
+  
+    <meta property="og:image" content="">
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="OamSoCool" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+</head>
+</html>
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">OamSoCool</a><span class="split"></span><span class="title">Multiple SSH KEYs on The Same Computer</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2019-02-11</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <h2 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h2><p>有时候，可能需要在github上创建不同的帐户（虽然是很小的概率），但如果你的主机上只有一个sshkey，就会出现问题。</p>
+<p>问题在于这个github会查询sshkey的唯一性，并告诉你这个sshkey已经存在了。</p>
+<p>这个时候同一台机器创建不同的sshkey就有必要了。</p>
+<h2 id="具体操作步骤"><a href="#具体操作步骤" class="headerlink" title="具体操作步骤"></a>具体操作步骤</h2><p>任何的操作步骤都会有假设的前提。</p>
+<p>我们假设现在你的主机还没有配置sshkey</p>
+<h3 id="1-为本地主机创建多个sshkey"><a href="#1-为本地主机创建多个sshkey" class="headerlink" title="1. 为本地主机创建多个sshkey"></a>1. 为本地主机创建多个sshkey</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail@temp.com"</span></span><br><span class="line"></span><br><span class="line">&gt; -t 为参数类型</span><br><span class="line">&gt; -C 关联邮件</span><br></pre></td></tr></table></figure>
+<p>这个步骤中，会要求你配置文件的位置和名称，注意并正确填写。</p>
+<p>对应标题，我们需要假设需要在本地创建两个sshkey达到目的，所以需要执行<strong>两次</strong>上述命令。</p>
+<p>注意，执行上述命令的时候，配置的文件应该是不同的。</p>
+<p>现在，已经有了两个不同的sshkey在~/.ssh/目录下。<br>查看目录结构：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls -l ~/.ssh/</span><br></pre></td></tr></table></figure>
+<h3 id="2-配置ssh的config文件，并关联不同帐户"><a href="#2-配置ssh的config文件，并关联不同帐户" class="headerlink" title="2. 配置ssh的config文件，并关联不同帐户"></a>2. 配置ssh的config文件，并关联不同帐户</h3><p>查看ssh的手册可以发现下面的内容：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># man ssh &amp;&amp; grep configfile</span><br><span class="line"></span><br><span class="line">     -F configfile</span><br><span class="line">             Specifies an alternative per-user configuration file.  If a configuration file is given on the command line, the system-wide configuration file (/etc/ssh/ssh_config) will</span><br><span class="line">             be ignored.  The default for the per-user configuration file is ~/.ssh/config.</span><br></pre></td></tr></table></figure></p>
+<p>在~/.ssh/下创建config文件并添加配置信息。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ touch ~/.ssh/config</span><br></pre></td></tr></table></figure>
+<p>使用编辑器完成配置信息添加：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vi ~/.ssh/config</span><br></pre></td></tr></table></figure>
+<p>配置信息样例如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Host github.com # 这个名字理论上可以随便配置，但最好配置有意义的内容，并且可以看到这个内容是区分不同sshkey的必要条件</span><br><span class="line">    HostName github.com</span><br><span class="line">    PreferredAuthentications publickey</span><br><span class="line">    IdentityFile ~/.ssh/id_rsa</span><br><span class="line"></span><br><span class="line">Host my.github.com</span><br><span class="line">    HostName github.com</span><br><span class="line">    PreferredAuthentications publickey</span><br><span class="line">    IdentityFile ~/.ssh/my</span><br></pre></td></tr></table></figure></p>
+<h3 id="3-上传指定的sshkey到github"><a href="#3-上传指定的sshkey到github" class="headerlink" title="3. 上传指定的sshkey到github"></a>3. 上传指定的sshkey到github</h3><p>上川sshkey到github也很容易，这个内容可以参考链接：<br><a href="https://blog.csdn.net/itmyhome1990/article/details/39668349" rel="external nofollow noopener noreferrer" target="_blank">GITHUB的SSHKEY的配置</a></p>
+<h3 id="4-验证配置的内容是否生效"><a href="#4-验证配置的内容是否生效" class="headerlink" title="4. 验证配置的内容是否生效"></a>4. 验证配置的内容是否生效</h3><p>验证指令很简单：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@my.github.com</span><br><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure></p>
+<p>如果出现Hi xxx!You’ve successfully authenticated 就说明连接成功了。</p>
+<h3 id="5-git仓库的配置"><a href="#5-git仓库的配置" class="headerlink" title="5. git仓库的配置"></a>5. git仓库的配置</h3><p>需要知道的是，本地关于ssh的相关操作，都是基于本地的配置完成的。这很重要！</p>
+<p>这里需要注意的是，用户名和邮件的配置信息是需要使用git的指令完成配置的。<br>用户信息可以是本地仓库的，也可以是针对个别用户的，也可以是全局的。<br>具体的内容请参考：<a href="https://blog.csdn.net/joe_007/article/details/7276195" rel="external nofollow noopener noreferrer" target="_blank">git config 配置</a></p>
+<p>如果想要免密操作，那么clone自己的仓库就使用git协议，如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@my.github.com:username/wiki.websit.git</span><br></pre></td></tr></table></figure></p>
+<p>如果仓库已经clone或者创建完成，那么可以修改本地的仓库完成配置，如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#更改[remote "origin"]项中的url中的(.git/config)</span></span><br><span class="line"><span class="comment">#my.github.com 对应上面配置的host</span></span><br><span class="line">[remote <span class="string">"origin"</span>]</span><br><span class="line">	url = git@my.github.com:itmyline/blog.git</span><br></pre></td></tr></table></figure></p>
+<p>或者：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#在Git Bash中提交的时候修改remote</span></span><br><span class="line">$ git remote rm origin</span><br><span class="line">$ git remote add origin git@my.github.com:username/blog.git</span><br></pre></td></tr></table></figure></p>
+<h2 id="扩展内容"><a href="#扩展内容" class="headerlink" title="扩展内容"></a>扩展内容</h2><p>在使用hexo完成博客编写的时候，需要配置web中的 _config.yml文件的内容如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">deploy:</span><br><span class="line">  repo: git@cool.github.com:oamsocool/oamsocool.github.io.git</span><br><span class="line">  type: git</span><br><span class="line">  branch: master</span><br><span class="line">...</span><br></pre></td></tr></table></figure></p>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+	
+		
+			
+		
+	
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+			
+		
+	
+		
+	
+	
+	
+		<li class="prev"><a href="/wiki/Linux/firefox/firefox/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next disabled"><a>next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2019 oamsocool
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank" rel="external nofollow noopener noreferrer">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/" rel="external nofollow noopener noreferrer" target="_blank">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+
+</body>
+
